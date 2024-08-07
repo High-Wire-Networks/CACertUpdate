@@ -1,6 +1,7 @@
 https://github.com/High-Wire-Networks/CACertUpdate
 # CACertUpdate
 Scripts to update TLS log agents
+This update is only required for agents sending logs thru TLS . It does not affect servers using local log collector over UDP.
 
 Windows:
 Please use the script provided thru your software distribution tool in your environment to replace the certificate and restart the nxlog service. If not using a software distribution tool , right click on the PowerShell script and run locally on device/s as administrator.
