@@ -1,5 +1,6 @@
 # CACertUpdate
 Scripts to update TLS log agents
+
 Windows:
 Please use the script provided thru your software distribution tool in your environment to replace the certificate and restart the nxlog service. If not using a software distribution tool , right click on the PowerShell script and run locally on device/s as administrator.
 Fluency-NXLogWindowsCertSwap.ps1
